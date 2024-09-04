@@ -3,7 +3,6 @@
     src: url("./fonts/JejuHallasan/JejuHallasan.woff2") format("woff2");
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +18,7 @@
 .contenedorVideo {
     position: relative;
     width: 100%;
-    height: 860px;
+    height: 90.43112513144059vh;
 }
 
 .contenedorVideo video {
@@ -33,123 +32,123 @@
 
 .logo {
     position: absolute;
-    top: 20px;
-    left: 40px;
+    top: 2.103049421661409vh;
+    left: 2.083333333333333vw;
     z-index: 10;
     display: flex;
-    gap: 10px;
+    gap: 0.5208333333333333vw;
 }
 
 .logo img {
-    width: 100px;
+    width: 5.208333333333333vw;
 }
 
 .logo h2 {
     color: white;
-    margin-top: 15px;
+    margin-top: 1.577287066246057vh;
     font-family: "JejuHallasan", sans-serif;
-    font-size: 25px;
+    font-size: 1.302083333333333vw;
 }
 
 .eslogan {
     position: absolute;
-    width: 660px;
-    top: 200px;
-    left: 12%;
+    width: 34.375vw;
+    top: 21.03049421661409vh;
+    left: 10.9375vw;
     z-index: 10;
 }
 
 .eslogan h1 {
     color: white;
-    font-size: 50px;
+    font-size: 2.604166666666667vw;
     font-family: "JejuHallasan", sans-serif;
 }
 
 .eslogan h3 {
     color: white;
-    font-size: 30px;
+    font-size: 1.5625vw;
     font-family: "JejuHallasan", sans-serif;
 }
 
 .eslogan button {
     background-color: #273B46;
     color: white;
-    padding: 15px;
+    padding: 0.78125vw;
     font-family: "JejuHallasan", sans-serif;
-    font-size: 20px;
-    margin-top: 20px;
+    font-size: 1.041666666666667vw;
+    margin-top: 2.103049421661409vh;
     border: none;
-    border-radius: 3px;
+    border-radius: 0.15625vw;
 }
 
 .contenedorReproducir {
     position: absolute;
-    bottom: 20px;
-    right: 40px;
+    bottom: 1.041666666666667vh;
+    right: 2.083333333333333vw;
     z-index: 10;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0.5208333333333333vw;
 }
 
 .contenedorReproducir button {
-    padding: 10px;
+    padding: 0.5208333333333333vw;
     font-family: "JejuHallasan", sans-serif;
-    font-size: 30px;
-    border: 2px solid white;
+    font-size: 1.5625vw;
+    border: 0.1041666666666667vw solid white;
     background-color: transparent;
     color: white;
     display: flex;
     align-items: center;
-    gap: 5px;
-    border-radius: 3px;
+    gap: 0.2604166666666667vw;
+    border-radius: 0.15625vw;
 }
 
 .contenedorReproducir img {
     filter: invert(1) saturate(5) hue-rotate(0deg);
-    width: 20px;
+    width: 1.041666666666667vw;
 }
 
 .separador {
     position: relative;
-    height: 100px;
+    height: 10.51524710830705vh;
     background-color: white;
 }
 
 .contenedorSeleccion {
     background-color: #22333F;
     color: white;
-    height: 300px;
+    height: 31.5vh;
     display: flex;
     flex-direction: column;
 }
 
 .textoSeleccion1 {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 4vw;
     font-family: "JejuHallasan", sans-serif;
-    font-size: 30px;
+    font-size: 1.5vw;
 }
 
 .textoSeleccion2 {
     text-align: center;
     margin: 0 auto;
-    margin-top: 20px;
-    width: 970px;
-    font-size: 20px;
+    margin-top: 1vw;
+    width: 50vw;
+    font-size: 1vw;
     font-family: "JejuHallasan", sans-serif;
 }
 
 .flechaScroll {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100%;
     transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
 .flechaScroll img {
-    width: 40px;
+    width: 2.083333333333333vw;
+    height: 4.206098843322818vh;
+    margin-top: 2.628811777076761vh;
     cursor: pointer;
     animation: bounce 2s infinite;
 }
@@ -256,12 +255,12 @@
 .descubreTitulo{
     display:flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 2.5vw;
 }
 
 .descubreTitulo h1{
     font-family: "JejuHallasan", sans-serif;
-    font-size: 30px;
+    font-size: 2.1vw;
 }
 
 .informacion1 h1{
@@ -285,12 +284,12 @@
 .explorar{
     display:flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 5.257623554153523vh;
 }
 
 .explorarTitulo{
     font-family: "JejuHallasan", sans-serif;
-    font-size: 30px;
+    font-size: 1.5625vw;
 }
 
 .fraseSubrayada {
@@ -303,7 +302,7 @@
 
 .flechaDerecha {
     height: 0.8vw; 
-    margin-left: 5px;
+    margin-left: 0.2604166666666667vw;
     filter: invert(1) saturate(5) hue-rotate(0deg);
 
 }

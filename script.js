@@ -42,3 +42,6 @@ window.addEventListener('scroll', function(){
         flechaScroll.style.visibility = 'hidden';
     }
 });
+
+console.log(window.innerHeight);
+console.log(window.innerWidth);
