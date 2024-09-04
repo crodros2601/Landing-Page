@@ -1,66 +1,133 @@
-    <!DOCTYPE html>
-    <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>GameHaven</title>
-        <link rel="stylesheet" href="estilo.css">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameHaven</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
 
-    </head>
-    <body>
+    <div class="contenedorPrincipal" style="background-color: black;">
 
-        <div class="contenedorPrincipal" style="background-color: black;">
-
-        <section>
-            <div class="contenedorVideo">
-                
-                <div class="logo">
-                    <img src="./img/mandoLogo.png">
-                    <h2>GameHaven</h2>
-                </div>
-
-                <div class="eslogan">
-                    <h1>Encuentra tu próximo desafío, donde quiera que estés.</h1>
-                    <h3>Nuestra plataforma ofrece una selección exclusiva de juegos, desde los más emocionantes 
-                        hasta los más innovadores, para que disfrutes sin importar dónde te encuentres.</h3>
-                    <button>Explora nuestros juegos</button>
-                </div>
-                
-                <video id="trailer" muted>
-                    <source src="./video/NieR Automata Ver1.1a   OFFICIAL TRAILER.mp4" type="video/mp4">
-                </video>
-
-                <div class="contenedorReproducir">
-                    <button onClick="video()">
-                        <span id="texto">Reproducir</span>
-                        <img id="icono" src="./img/reproducir.png">
-                    </button>
-                </div>
-
+    <section>
+        <div class="contenedorVideo">
+            
+            <div class="logo">
+                <img src="./img/mandoLogo.png">
+                <h2>GameHaven</h2>
             </div>
-        </section>
 
-        <section class="separador"></section>
+            <div class="eslogan">
+                <h1>Encuentra tu próximo desafío, donde quiera que estés.</h1>
+                <h3>Nuestra plataforma ofrece una selección exclusiva de juegos, desde los más emocionantes 
+                    hasta los más innovadores, para que disfrutes sin importar dónde te encuentres.</h3>
+                <button>Explora nuestros juegos</button>
+            </div>
+            
+            <video id="trailer" muted>
+                <source src="./video/NieR Automata Ver1.1a   OFFICIAL TRAILER.mp4" type="video/mp4">
+            </video>
 
-        <section>
-            <div class="contenedorSeleccion">
-                <div class="textoSeleccion1">
-                    <h1>La mejor selección de juegos para todos los gustos</h1>
+            <div class="contenedorReproducir">
+                <button onClick="video()">
+                    <span id="texto">Reproducir</span>
+                    <img id="icono" src="./img/reproducir.png">
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="separador">
+        <div class="flechaScroll">
+            <img src="./img/flechaAbajo.png" onClick="scrollContenido()">
+        </div>
+    </section>
+    
+
+    <section>
+        <div class="contenedorSeleccion">
+            <div class="textoSeleccion1">
+                <h1>La mejor selección de juegos para todos los gustos</h1>
+            </div>
+            
+            <div class="textoSeleccion2">
+                <h3>Conéctate con millones de jugadores, explora títulos exclusivos, y disfruta de una 
+                experiencia de juego optimizada para cualquier dispositivo.</h3>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="separador"></section>
+
+    <section>
+        <div class="descubre">
+            <div class="descubreTitulo">
+                <h1>Descubre lo que hace único a GameHaven</h1>
+            </div>
+            
+            <div class="grid-1">
+                <div class="grid-item item1">
+                    <img src="./img/juegos.webp">
                 </div>
-                
-                <div class="textoSeleccion2">
-                    <h3>Conéctate con millones de jugadores, explora títulos exclusivos, y disfruta de una 
-                    experiencia de juego optimizada para cualquier dispositivo.</h3>
-                </div>
+                <div class="grid-item item2">
+                    <div class="informacion1">
+                        <h1>Catálogo Extenso</h1>
+                        <p>Accede a una biblioteca de juegos que incluye desde clásicos atemporales 
+                            hasta los últimos lanzamientos.</p>
+                        <p class="fraseSubrayada">Descubre el catálogo de GameHaven
+                            <img class="flechaDerecha" src="img/reproducir.png">
+                        </p>
+                    </div>
                 </div>
             </div>
-        </section>
 
-        <section class="separador"></section>
+            <div class="grid-2">
+                <div class="grid-item item3">
+                    <div class="informacion2">
+                        <h1>Multijugador Global</h1>
+                        <p>Juega con amigos y compite contra jugadores de todo el mundo en tiempo real.</p>
+                        <p class="fraseSubrayada">Descubre los juegos multijugador
+                            <img class="flechaDerecha" src="img/reproducir.png">
+                        </p>
+                    </div>
+                </div>
+                <div class="grid-item item4">
+                    <img src="./img/multijugador.webp">
+                </div>
+            </div>
 
-        </div> 
+            <div class="grid-3">
+                <div class="grid-item item5">
+                    <img src="./img/multiplataforma.webp">
+                </div>
+                <div class="grid-item item6">
+                    <div class="informacion3">
+                        <h1>Compatibilidad Multiplataforma</h1>
+                        <p>Juega en cualquier dispositivo, ya sea móvil, tablet o PC.</p>
+                        <p class="fraseSubrayada">Descubre nuestra experiencia multiplataforma
+                            <img class="flechaDerecha" src="img/reproducir.png">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <script src="script.js"></script>
+    <section class="separador"></section>
 
-    </body>
-    </html>
+    <section>
+        <div class="explorar">
+            <div class="explorarTitulo">
+                <h1>Explora lo Mejor de GameHaven</h1>
+            </div>
+        </div>
+    </section>
+
+    </div> 
+
+    <script src="script.js"></script>
+
+</body>
+</html>
