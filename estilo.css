@@ -142,7 +142,7 @@
 .flechaScroll {
     display: flex;
     justify-content: center;
-    transition: opacity 0.5s ease, visibility 0.5s ease;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
 
 .flechaScroll img {
@@ -255,7 +255,7 @@
 .descubreTitulo{
     display:flex;
     justify-content: center;
-    margin-bottom: 2.5vw;
+    margin-bottom: 4vh;
 }
 
 .descubreTitulo h1{
@@ -284,7 +284,7 @@
 .explorar{
     display:flex;
     justify-content: center;
-    margin-bottom: 5.257623554153523vh;
+    margin-bottom: 4vh;
 }
 
 .explorarTitulo{
@@ -342,3 +342,114 @@
     margin-left: 5vw;
     margin-right: 5vw;
 }
+
+.carousel{
+    position: relative;
+    height: 26.0416vw;
+    overflow: hidden;
+    margin: auto;
+    margin-left: 6.6vw;
+    margin-right: 6.6vw;  
+}
+
+.carouselInterior{
+    display: flex;
+    height: 100%;
+    transition: transform 0.5s ease-in-out, flex 0.5s ease-in-out;
+}
+
+.carouselImg img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carouselImg.imagenVisible {
+    flex: 0 0 50%;
+}
+
+.carouselImg{
+    flex: 0 0 45%;
+    transition: flex 0.5s ease-in-out;
+}
+
+.carouselAnterior, .carouselSiguiente{
+    position: absolute;
+    top: 50%;   
+    cursor: pointer;
+    z-index: 10;
+    transform: translateY(-50%); 
+}
+
+.carouselAnterior img{
+    width:2.5vw;
+}
+
+.carouselSiguiente img{
+    width:2.5vw;
+}
+
+.carouselAnterior{
+    left: 1.0416vw;
+}
+
+.carouselSiguiente{
+    right: 1.0416vw;
+}  
+
+.jugadores{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 4vh;
+}
+
+.nuestroJugadores h1{
+    font-family: "JejuHallasan", sans-serif;
+    font-size: 2.1vw;
+}
+
+.contenedorCritica{
+    display: flex;
+    margin-left: 13vw;
+    margin-right: 13vw;
+    gap: 4vw;
+
+}
+
+.criticaImg{
+    width: 31.25vw;
+    height: 45vw; 
+}
+
+.criticaImg img{
+    width: 31.25vw;
+    height: 45vw; 
+    object-fit: cover;
+}
+
+.critica{
+    width: 42vw;
+    height: 45vw;   
+    background-color: #22333F;
+}
+
+.critica #texto1{
+      
+    font-family: "JejuHallasan", sans-serif;
+    font-size: 1.5vw;
+    color: white;
+    margin-top: 6vw;
+    margin-left: 5vw;
+    margin-right: 5vw;  
+}
+
+.critica #texto2{
+      
+    font-family: "JejuHallasan", sans-serif;
+    font-size: 1.5vw;
+    color: white;
+    margin-top: 1vw;
+    margin-left: 5vw;
+    margin-right: 5vw;  
+}
+
