@@ -1,3 +1,23 @@
+document.addEventListener("DOMContentLoaded", function(){
+    const menuBurger = document.querySelector('.menuBurger');
+    const menu = document.querySelector('.menu-mobile');
+    const cerrar = document.querySelector('.cerrarMenu')
+
+    menuBurger.addEventListener('click', function(){
+        menu.classList.toggle('abrir');
+    })
+
+    cerrar.addEventListener('click', function(){
+        menu.classList.remove('abrir');
+    })
+
+    document.addEventListener('click', function(){
+        if(!menu.contains(event.target) && !menuBurger.contains(event.target)){
+            menu.classList.remove('abrir');
+        }
+    })
+})
+
 function video(){
 
     const trailer = document.getElementById('trailer');
@@ -50,7 +70,7 @@ function scrollContenido() {
         flechaScroll.style.transition = 'opacity 0.5s ease-in-out, visibility 0.5s ease-in-out';
         flechaScroll.style.opacity = '0';
         flechaScroll.style.visibility = 'hidden';
-    }, duration + 100); 
+    }, duracion + 100); 
 }
 
     window.addEventListener('scroll', function () {

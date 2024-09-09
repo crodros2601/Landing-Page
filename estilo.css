@@ -88,8 +88,49 @@
     width: 5vw;
 }
 
+.menu-mobile {
+    display: none;
+    background-color: white;
+    width: 100%;
+    height: 21vh;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+}
 
 
+.menu-mobile h3 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.7vw;
+    text-align: center;
+    margin: 2vw;
+}
+
+.menu-mobile.abrir{
+    display:none;
+    
+}
+
+.cerrarMenu {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 2vw;
+    right: 2vw;
+    
+}
+
+.cerrarMenu img {
+    width: 5vw;
+}
+
+.menuCerrar{
+    margin-top: 3.5vh;
+}
 
 .eslogan {
     position: absolute;
@@ -542,6 +583,30 @@
     .menuBurger {
         display: block;
     }
+
+    .menu-mobile.abrir{
+        display: flex;
+    }
+
+    
+.eslogan {
+    width: 34.375vw;
+    top: 10vh;
+}
+
+.eslogan h1 {
+    font-size: 3vw;
+}
+
+.eslogan h3 {
+    font-size: 2vw;
+}
+
+.eslogan button {
+    padding: 2vw;
+    font-size: 2vw;
+}
+
 }
 
 
