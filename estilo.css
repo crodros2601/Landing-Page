@@ -589,7 +589,7 @@
     
 .eslogan {
     width: 45vw;
-    top: 7.5vh;
+    top: 7.6vh;
     left: 5vw;
 }
 
@@ -605,7 +605,6 @@
     padding: 2vw;
     font-size: 2vw;
 }
-
 
 .contenedorReproducir {
     position: absolute;
@@ -629,14 +628,14 @@
 
 .separador {
     position: relative;
-    height: 6vh;
+    height: 5vh;
     background-color: white;
 }
 
 .flechaScroll img {
     width: 4vw;
     height: 2vh;
-    margin-top: 1.8vh;
+    margin-top: 1.4vh;
 }
 
 .contenedorSeleccion {
@@ -653,6 +652,97 @@
     width: 80vw;
     font-size: 1.5vw;
 }
+
+
+.descubreTitulo{
+    margin-bottom:3vh;
+}
+
+.descubreTitulo h1{
+
+    font-size: 3vw;
+}
+
+.grid-1 {
+    gap: 1%;
+    margin-left: 6.6vw;
+    margin-right: 6.6vw;
+}
+
+.item1{
+    grid-column: span 3;
+    height: 10vh;
+    width: 37vw;
+}
+
+.item1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item2{
+    grid-column: span 4;
+    height: 10vh;
+    width: 48vw;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1%;
+    margin-left: 6.6vw;
+    margin-right: 6.6vw;
+    margin-top: 1%;
+}
+
+.item3{
+    grid-column: span 1/2;
+    height: 10vh;
+    width: 42.5vw;
+}
+
+.item4{
+    grid-column: span 1.5;
+    height: 10vh;
+    width: 42.5vw;
+}
+
+.item4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1%;
+    margin-left: 6.6vw;
+    margin-right: 6.6vw;
+    margin-top: 1%;
+}
+
+.item5{
+    grid-column: span 3;
+    height: 10vh;
+    width: 37vw;
+}
+
+.item5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item6{
+    grid-column: span 4;
+    height: 10vh;
+    width: 48vw;
+}
+
 
 }
 
