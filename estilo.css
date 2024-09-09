@@ -71,8 +71,6 @@
     margin-left: 1vw;
 }
 
-/* Menú móvil */
-
 .menuBurger{
     display: none;
     cursor: pointer;
@@ -590,8 +588,9 @@
 
     
 .eslogan {
-    width: 34.375vw;
-    top: 10vh;
+    width: 45vw;
+    top: 7vh;
+    left: 5vw;
 }
 
 .eslogan h1 {
@@ -605,6 +604,27 @@
 .eslogan button {
     padding: 2vw;
     font-size: 2vw;
+}
+
+
+.contenedorReproducir {
+    position: absolute;
+    bottom: 1.041666666666667vh;
+    right: 2.083333333333333vw;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 0.5208333333333333vw;
+}
+
+.contenedorReproducir button {
+    padding: 1vw;
+    font-size: 2vw;
+    gap: 0.2604166666666667vw;
+}
+
+.contenedorReproducir img {
+    width: 2vw;
 }
 
 }
