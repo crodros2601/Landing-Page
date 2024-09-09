@@ -63,6 +63,30 @@
 
 }
 
+.logoMovil {
+    display: none;
+    position: absolute;
+    top: 2.103049421661409vh;
+    left: 2.083333333333333vw;
+    z-index: 10;
+    display: flex;
+    gap: 0.5208333333333333vw;
+    width: 95%;
+}
+
+.logoMovil img {
+    width: 5.208333333333333vw;
+}
+
+.logoMovil h2 {
+    color: white;
+    margin-top: 1.577287066246057vh;
+    font-family: "JejuHallasan", sans-serif;
+    font-size: 1.302083333333333vw;
+    margin-right: auto;
+
+}
+
 .logo h3 {
     color: white;
     margin-top: 1.577287066246057vh;
@@ -575,7 +599,7 @@
     }
 
     .logo {
-        display: none
+        display: none;
     }
     
     .menuBurger {
@@ -875,6 +899,28 @@
     margin-top: 2vh;
     margin-left: 1.5vw;
 }
+
+.logoMovil {
+    display: block;
+    position: absolute;
+    top: 0.5vh;
+    left: 2.083333333333333vw;
+    z-index: 10;
+    display: flex;
+    gap: 0.5208333333333333vw;
+    width: 95%;
 }
 
+.logoMovil img {
+    width: 10vw;
+}
 
+.logoMovil h2 {
+    color: white;
+    margin-top: 0.8vh;
+    font-size: 3vw;
+    margin-right: auto;
+
+}
+
+}
