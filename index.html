@@ -16,7 +16,26 @@
             <div class="logo">
                 <img src="./img/mandoLogo.png">
                 <h2>GameHaven</h2>
+                <h3>Explorar</h3>
+                <h3>Categorías</h3>
+                <h3>Noticias</h3>
+                <h3>Registrar</h3>
+                <h3>Iniciar sesión</h3>
             </div>
+
+            <!-- Botón de menú para dispositivos móviles -->
+            <button class="menuBurger" aria-label="Menu">
+                <img src="./img/menuBurger.png">
+            </button>
+
+            <!-- Menú desplegable para dispositivos móviles -->
+            <nav class="menu-mobile">
+                <h3>Explorar</h3>
+                <h3>Categorías</h3>
+                <h3>Noticias</h3>
+                <h3>Registrar</h3>  
+                <h3>Iniciar sesión</h3>
+            </nav>
 
             <div class="eslogan">
                 <h1>Encuentra tu próximo desafío, donde quiera que estés.</h1>
@@ -25,9 +44,10 @@
                 <button>Explora nuestros juegos</button>
             </div>
             
-            <video id="trailer" muted>
-                <source src="./video/NieR Automata Ver1.1a   OFFICIAL TRAILER.mp4" type="video/mp4">
-            </video>
+                <video id="trailer" muted>
+                    <source src="./video/trailer.mp4" type="video/mp4">
+                </video>
+                <div class="overlay"></div>
 
             <div class="contenedorReproducir">
                 <button onClick="video()">
@@ -182,6 +202,20 @@
     </div> 
 
     <script src="script.js"></script>
+
+    <footer>
+        <div class="piePagina">
+            <div class="pieInformacion">
+                <p>2024 GameHaven - Privacidad - Términos - Mapa del sitio - Información de la compañía</p>
+                <div class="iconos">
+                    
+                    <img src="img/facebook.png">
+                    <img id="twitter" src="img/twitter.png">
+                    <img src="img/intagram.png">
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
